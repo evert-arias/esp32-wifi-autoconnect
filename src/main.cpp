@@ -1,8 +1,10 @@
 /*
- *  Title:   ESP32 Wi-Fi Auto Connect Example 
+ *  ESP32 Wi-Fi Auto Connect Example Using TaskScheduler  
+    https://github.com/evert-arias/esp32-wifi-auto-connect-example
  *  Version: 1.0.0
  *  Date:    02-10-2019
- *  Author:  Evert Arias | https://github.com/evert-arias
+ *  Author:  Evert Arias - https://github.com/evert-arias
+ *  Dependencies: [ TaskScheduler - https://github.com/arkhipenko/TaskScheduler ] 
 */
 
 #include <Arduino.h>
