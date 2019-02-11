@@ -146,6 +146,7 @@ void wifi_connect_cb()
   {
     // Wi-Fi Idle. This means that it's connected to the AP but the DHCP has not assigned an IP yet
     Serial.println(PSTR("[Wi-Fi] Status: Idle | No IP assigned by DHCP Server"));
+    WiFi.disconnect(); // Optional to disconnect and start again instead of wait for DHCP to assign IP.
   }
   else if (result == WL_CONNECTED)
   {
